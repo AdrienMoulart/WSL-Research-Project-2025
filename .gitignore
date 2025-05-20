@@ -1,0 +1,9 @@
+# Ignore the PyCharm settings folder (this is very device specific and shouldn't be on github)
+.idea/
+
+# Ignore Python bytecode
+# I don't fully understand this but have read that this should be included when making comits to github
+# in order to avoid pushing automatically generated files that are not source code and shouldn't be included in the repository
+__pycache__/
+*.py[cod]
+*$py.class
