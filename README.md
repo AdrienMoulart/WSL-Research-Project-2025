@@ -4,4 +4,15 @@ The main_wsl_project_notebook contains the steps I took to work on the PHP_diagn
 
 The BLAST_notebook.ipynb file contains my work on an automated blast pipeline for a local BLAST search ran on a high performance computing cluster (such as Hyperion at WSL). The python and shell scripts contained in this project should be enough to reproduce all my methods that led to the results found within the notebook, provided that the environment structure is adapted first.
 
+IMPORTANT: The final results of this project can be found in:
+data/clean_data/expanded_complete_diagnostics_data_2016_2024.xlsx. 
+
+This file contains all the added information across both notbooks for all the samples recorded between 2016 and 2024!
+
+On the other hand, expanded_DNA_sequence_data_2016_2024.xlsx only contains the data for samples with a valid DNA sequence.
+
+
 All package information as well as the python version can be found in the conda_envrionment.yml file.
+
+
+Note: I recommend keeping the jupyter notebooks in the project root, as the paths used to access data are all relative and will break if the notebooks are moved to another directory.
