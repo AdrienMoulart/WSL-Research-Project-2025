@@ -4,4 +4,4 @@ The main_wsl_project_notebook contains the steps I took to work on the PHP_diagn
 
 The BLAST_notebook.ipynb file contains my work on an automated blast pipeline for a local BLAST search ran on a high performance computing cluster (such as Hyperion at WSL). The python and shell scripts contained in this project should be enough to reproduce all my methods that led to the results found within the notebook, provided that the environment structure is adapted first.
 
-All package information as well as the python version can be found in the conda_envrionment.yml file in project_information/.
+All package information as well as the python version can be found in the conda_envrionment.yml file.
